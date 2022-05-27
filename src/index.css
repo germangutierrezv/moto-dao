@@ -4,10 +4,21 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  /* background-color: #7700ee; */
+  background-color: #0342c841;
+  background-image: url("../scripts/assets/motocross.png");
+  background-repeat: no-repeat;
+  background-position-x:center;
+  background-position-y:center;
   color: #fff;
   overflow-x: hidden;
 }
+
+body > img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 #root {
   min-height: 100vh;
   display: flex;
